@@ -1,23 +1,24 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import Navbar from './Navbar/Navabar';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
+import Navbar from './Components/Navbar/Navabar';
+import Header from './Components/Header/Header';
+import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
 
 import './App.css';
 
 function App() {
-  const [displayState, switchDisplayState] = useState({});
-
   return (
     <>
       <Navbar />
-      <Router>
+      <Switch>
         <Route path="/" exact component={Header} />
-      </Router>
-      {/* <Header /> */}
+        <Route path="/home" exact component={Header} />
+        <Route path="/blog" exact component={Blog} />
+      </Switch>
       <Footer />
+      {/* <Header /> */}
     </>
   );
 }

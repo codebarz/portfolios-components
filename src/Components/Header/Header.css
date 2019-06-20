@@ -2,7 +2,7 @@
   position: absolute;
   width: 100%;
   height: 32rem;
-  background: url('../images/greg-rakozy-129733-unsplash.jpg') no-repeat fixed;
+  background: url('../../images/greg-rakozy-129733-unsplash.jpg') no-repeat fixed;
   background-size: cover;
 }
 .dim {
@@ -15,7 +15,7 @@
 }
 .banner article {
   position: absolute;
-  top: 20%;
+  top: 25%;
   z-index: 2;
   display: flex;
   justify-content: center;
