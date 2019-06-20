@@ -1,0 +1,64 @@
+.hire-main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+.hire-main article {
+  padding: 100px;
+  border-right: 1px solid #f1f1f1;
+  flex: 0 0 60%;
+  text-align: center;
+}
+.hire-main article p {
+  text-align: left;
+}
+.hire-main input {
+  margin: 20px 0;
+}
+.hire-main article input[type='text'],
+.hire-main article input[type='email'],
+.hire-main article input[type='text'],
+.hire-main article input[type='number'],
+.hire-main article textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-bottom: 1px solid #f1f1f1;
+  outline: none;
+  resize: none;
+}
+.hire-main article input[type='text']:focus,
+.hire-main article input[type='email']:focus,
+.hire-main article input[type='text']:focus,
+.hire-main article input[type='number']:focus,
+.hire-main article textarea:focus {
+  box-shadow: 0 5px 5px -5px #38bc8a;
+}
+.hire-main article input[type='submit'] {
+  display: none;
+}
+.hire-main label {
+  color: #fff;
+  background: #38bc8a;
+  padding: 10px 20px;
+  clear: both;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+}
+.hire-main label:hover {
+  border-radius: 30px;
+  transition: all linear 0.2s;
+}
+.hire-main aside {
+  flex: 0 0 20%;
+  padding: 100px 0 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.hire-main aside i {
+  color: #33bc8a;
+  font-weight: bold;
+}
