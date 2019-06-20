@@ -14,10 +14,19 @@ const Header = props => {
             <sup>TM</sup>
           </p>
           <div className="underline-white" />
-          <h2>A Javascript Developer at Decagon</h2>
+          <h2>
+            A{' '}
+            <span>
+              Javascript
+              <sup>
+                <i class="mdi mdi-language-javascript" />
+              </sup>
+            </span>{' '}
+            Developer
+          </h2>
           <p>
             View my work on my
-            <a href="https://github.com/whitehox">
+            <a href="https://github.com/whitehox" target="_blanck">
               <i className="mdi mdi-github-circle" />
               GitHub
             </a>
@@ -27,13 +36,13 @@ const Header = props => {
           </p>
           <ul>
             <li>
-              <i className="mdi mdi-facebook" />
+              <i className="mdi mdi-facebook yellow" />
             </li>
             <li>
-              <i className="mdi mdi-twitter" />
+              <i className="mdi mdi-twitter yellow" />
             </li>
             <li>
-              <i className="mdi mdi-instagram" />
+              <i className="mdi mdi-instagram yellow" />
             </li>
           </ul>
           <i className="mdi mdi-navigation scroll-down" />

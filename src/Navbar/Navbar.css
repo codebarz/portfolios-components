@@ -4,10 +4,11 @@
   width: 100%;
   justify-content: center;
   align-content: center;
-  box-shadow: 0 5px 5px -5px #000;
+  /* box-shadow: 0 5px 5px -5px #000; */
   font-size: 12px;
   position: fixed;
   z-index: 3;
+  background: #000;
 }
 .navbar .navbar-item {
   flex: 1;
@@ -36,27 +37,29 @@
 .navbar ul a,
 .navbar ul li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 30px;
   color: #fff;
+  border: none;
 }
 .navbar-item a,
 .navbar-item ul li a {
   display: block;
-  background: #38bc8a;
+  /* background: #fd0; */
+  border: 1px solid #fd0;
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
-  color: #000;
+  color: #fd0;
   font-weight: bold;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 30px;
   text-decoration: none;
   margin-left: 80px;
 }
 .navbar-item a:hover {
-  border-radius: 30px;
+  /* border-radius: 30px; */
   transition: all linear 0.2s;
-  border-bottom: 1px solid #38bc8a;
+  border-bottom: 2px solid #fd0;
 }
 .navbar-item a.active {
   color: #38bc8a;
