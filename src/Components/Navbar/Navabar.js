@@ -17,14 +17,14 @@ const navbar = () => {
         <Link className="menu-item" to="/blog">
           <li>BLOG</li>
         </Link>
-        <a className="menu-item" href="./contact.html">
+        <Link className="menu-item" to="/contact">
           <li>CONTACT</li>
-        </a>
+        </Link>
       </ul>
       <div className="navbar-item">
-        <a className="hireLink" href="contact.html">
+        <Link className="hireLink" to="/contact">
           Hire me
-        </a>
+        </Link>
       </div>
     </nav>
   );
