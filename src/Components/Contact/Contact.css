@@ -33,14 +33,14 @@
 .hire-main article input[type='text']:focus,
 .hire-main article input[type='number']:focus,
 .hire-main article textarea:focus {
-  box-shadow: 0 5px 5px -5px #38bc8a;
+  box-shadow: 0 5px 5px -5px #fd0;
 }
 .hire-main article input[type='submit'] {
   display: none;
 }
 .hire-main label {
-  color: #fff;
-  background: #38bc8a;
+  color: #000;
+  background: #fd0;
   padding: 10px 20px;
   clear: both;
   font-size: 12px;

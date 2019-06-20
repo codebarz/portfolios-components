@@ -46,7 +46,6 @@ const Header = props => {
               <i className="mdi mdi-instagram yellow" />
             </li>
           </ul>
-          <i className="mdi mdi-navigation scroll-down" />
         </article>
         <div className="dim" />
       </section>

@@ -3,7 +3,11 @@ footer {
   padding: 20px 10px;
   font-size: 12px;
   font-weight: bold;
-  width: 90%;
+  width: 100%;
+  background: url('../../images/lines.png') no-repeat center #fd0;
+  background-size: cover;
   margin: auto;
   box-shadow: 0 -5px 5px -5px #f1f1f1;
+  position: absolute;
+  bottom: 0;
 }
