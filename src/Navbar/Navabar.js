@@ -1,11 +1,12 @@
 import React from 'react';
+import profileImage from '../images/profile.jpeg';
 import './Navbar.css';
 
 const navbar = props => {
   return (
     <nav className="navbar">
       <div className="navbar-item">
-        <img src="./images/profile.jpeg" alt="profile" />
+        <img src={profileImage} alt={'profile'} />
       </div>
       <ul className="navbar-item">
         <a className="menu-item active" href="./index.html">

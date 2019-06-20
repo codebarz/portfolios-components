@@ -1,11 +1,13 @@
-div .navbar {
+.navbar {
   display: flex;
   height: 70px;
   width: 100%;
   justify-content: center;
   align-content: center;
-  box-shadow: 0 5px 5px -5px #ccc;
+  box-shadow: 0 5px 5px -5px #000;
   font-size: 12px;
+  position: fixed;
+  z-index: 3;
 }
 .navbar .navbar-item {
   flex: 1;
@@ -35,7 +37,7 @@ div .navbar {
 .navbar ul li {
   display: inline-block;
   padding: 0 10px;
-  color: #38bc8a;
+  color: #fff;
 }
 .navbar-item a,
 .navbar-item ul li a {
@@ -44,7 +46,8 @@ div .navbar {
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
   line-height: 50px;
   padding: 0 20px;
   text-decoration: none;
