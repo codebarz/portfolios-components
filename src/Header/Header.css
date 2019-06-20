@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0 5px 5px -5px #ccc;
+  font-size: 12px;
+}
+.navbar-item {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  transition: all linear 0.2s;
+  justify-content: center;
+  align-content: center;
+}
+.navbar-item img {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 50%;
+  justify-content: center;
+  border: 1px solid #f1f1f1;
+  margin-left: -250px;
+}
+.navbar ul {
+  display: block;
+  padding: 0;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.navbar ul a,
+.navbar ul li {
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 10px;
+}
+.navbar-item a,
+.navbar-item ul li a {
+  display: block;
+  background: #38bc8a;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+  margin-left: 80px;
+}
+.navbar-item a:hover {
+  border-radius: 30px;
+  transition: all linear 0.2s;
+  color: #38bc8a;
+  text-shadow: 0 0 4px #000;
+}
+.navbar-item a.active {
+  color: #38bc8a;
+}
+.navbar-item .menu-item {
+  background: transparent;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
