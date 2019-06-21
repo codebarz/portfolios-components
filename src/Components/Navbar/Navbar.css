@@ -70,3 +70,8 @@
   padding: 0;
   margin: 0;
 }
+.hireLink:hover {
+  background: #fd0;
+  border-radius: 30px;
+  color: #000;
+}
